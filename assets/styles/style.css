@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #1e3932;
-    height: 100px;
+    height: 112px;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -69,6 +69,17 @@ header h1 {
 
 #navMenu li{
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     display: inline;
 }
+
+section {
+    height: 250px;
+}
+
+section > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
