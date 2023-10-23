@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Coffee</title>
+    <title>Better Coffee</title>
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
     <header>
         <img src="assets/images/coffee.png" alt="coffee icon">
-        <h1>Star Coffee</h1>
+        <h1>Better Coffee</h1>
         <nav id="navMenu">
             <ul>
                 <a href="#">
-                    <li>Novidades</li>
+                    <li>Menu</li>
                 </a>
                 <a href="#">
                     <li>Ofertas</li>
@@ -30,5 +30,125 @@
     <section>
         <img src="./assets/images/coffeeBean.jpg" alt="Grãos de café torrados">
     </section>
+    <main>
+        <aside>
+            <h2>Informações adicionais</h2>
+            <p>Este é o espaço para informações adicionais sobre a nossa cafeteria, como novas adições ao nosso cardápio, promoções especiais, notícias sobre eventos e muito mais.</p>
+        </aside>
+        <div class="container">
+            <h1>Menu</h1>
+            <article>
+                <figure>
+                    <img src="assets/images/redvelvet.jpg" alt="">
+                    <figcaption>Bolo Red Velvet</figcaption>
+                </figure>
+                <div class="sale">-10%</div>
+                <div>
+                    <span>R$ 16</span>
+                    <span class="oldPrice">R$20</span>
+                </div>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="assets/images/capuccino-doce-de-leite.jpg" alt="">
+                    <figcaption>Capuccino Doce de Leite</figcaption>
+                </figure>
+                <div class="sale">-12%</div>
+                <div>
+                    <span>R$ 17</span>
+                    <span class="oldPrice">R$20</span>
+                </div>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="assets/images/capuccino-italiano.jpg" alt="">
+                    <figcaption>Capuccino Italiano</figcaption>
+                </figure>
+                <div class="sale">-8%</div>
+                <div>
+                    <span>R$ 18</span>
+                    <span class="oldPrice">R$20</span>
+                </div>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="assets/images/coxinha.jpg" alt="">
+                    <figcaption>Coxinha</figcaption>
+                </figure>
+                <div class="sale">-7%</div>
+                <div>
+                    <span>R$ 18</span>
+                    <span class="oldPrice">R$20</span>
+                </div>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="assets/images/coffee.jpg" alt="">
+                    <figcaption>Café expresso</figcaption>
+                </figure>
+                <div class="sale">-15%</div>
+                <div>
+                    <span>R$ 17</span>
+                    <span class="oldPrice">R$20</span>
+                </div>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="assets/images/cookie.jpg" alt="">
+                    <figcaption>Cookie</figcaption>
+                </figure>
+                <div class="sale">-5%</div>
+                <div>
+                    <span>R$ 19</span>
+                    <span class="oldPrice">R$20</span>
+                </div>
+            </article>
+            
+        </div>
+    </main>
+    <section id="about">
+        <article>
+          <h2 class="sectionTitle">Sobre Nós</h2>
+          <p>Bem-vindo à nossa cafeteria! Somos apaixonados por café e acreditamos que ele tem o poder de nos oferecer momentos de sabor, aroma e aconchego. Nosso objetivo é compartilhar essa paixão com você, oferecendo uma seleção cuidadosamente escolhida das melhores bebidas e lanches disponíveis.</p>
+          <p>Em nosso cardápio, você encontrará uma ampla variedade de opções, desde os clássicos cafés até criações especiais. Nossa equipe de baristas se esforça para manter nossas ofertas atualizadas e saborosas, fornecendo detalhes sobre sabores, ingredientes e combinações únicas.</p>
+          
+          <h3>Nossa Missão</h3>
+          <p>Nossa missão é criar um espaço onde os amantes de café possam explorar, descobrir novos sabores e escolher as bebidas que mais os satisfazem. Queremos fornecer informações detalhadas, dicas sinceras e recomendações confiáveis para ajudá-lo a fazer escolhas informadas e aproveitar ao máximo sua experiência na cafeteria.</p>
+          
+          <h3>Nosso Compromisso</h3>
+          <p>Estamos comprometidos em oferecer informações precisas e imparciais para ajudar você a encontrar as bebidas e os lanches que melhor atendam ao seu gosto. Valorizamos a diversidade e procuramos incluir uma ampla gama de opções para satisfazer todas as preferências, desde os amantes de café tradicional até os exploradores de sabores inovadores.</p>
+          
+    
+        </article>
+      </section>
+      <section id="subscriptions">
+        <form action="#" method="post">
+          <h2 class="sectionTitle">Assine nossa Newsletter</h2>
+          <p>Receba as últimas notícias e atualizações diretamente na sua caixa de entrada.</p>
+        
+          <label>Nome:
+            <input type="text" id="nome" name="nome" required>
+          </label>
+        
+          <label>E-mail:
+            <input type="email" id="email" name="email" required>
+          </label>
+        
+          <label for="concordo-email" class="estilizado">
+            <input type="checkbox" id="concordo-email" name="concordo-email" value="sim" required>
+            <span>Sim, desejo receber e-mails com as últimas notícias e atualizações.</span>
+          </label>
+        
+          <button type="submit">Assinar</button>
+        </form>
+      </section>
+      <footer>
+        <p>&copy; 2023 Better Coffee</p>
+      </footer>
 </body>
 </html>
